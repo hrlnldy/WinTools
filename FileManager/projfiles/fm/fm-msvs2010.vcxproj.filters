@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{ac66cc01-a578-406d-afe9-2ea93e080c1d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;h;rc</Extensions>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{618dcba7-bf93-4061-a474-4f03c7db8923}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="error">
+      <UniqueIdentifier>{50525439-0c65-4633-9bb9-2a38d7c011ef}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{37f208bc-a7c7-4b72-9ba5-8d08bd5a709d}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="getopt">
+      <UniqueIdentifier>{f9337438-b9fd-4eaa-a31a-83263484211f}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="cmdopt">
+      <UniqueIdentifier>{409ea14f-0027-4db6-88e2-6e8ab04586a7}</UniqueIdentifier>
+      <Extensions>c;h</Extensions>
+    </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{11215c3e-3cd6-4179-974f-e75c798d5565}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{650c04a1-38ed-446e-babd-eadb96ceefb4}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="cmfile">
+      <UniqueIdentifier>{afdb1680-7c9e-474a-9f39-bae322f341ec}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="filesys">
+      <UniqueIdentifier>{e7de17ec-3cc7-489e-9f07-3b1593b0f113}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\res\fm.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\res\resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\view\window.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\error\error.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config\options.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config\version.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\getopt\getopt.h">
+      <Filter>getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmdopt\cmdopt.h">
+      <Filter>cmdopt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\string\mystring.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\vector\vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmfile\cm.h">
+      <Filter>cmfile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\filesys\filesys.h">
+      <Filter>filesys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\filesys\path.h">
+      <Filter>filesys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\fmdef.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\string\getstring.h">
+      <Filter>string</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\view\window.c">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\error\error.c">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\config\options.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\config\version.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\getopt\getopt.c">
+      <Filter>getopt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cmdopt\cmdopt.c">
+      <Filter>cmdopt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\string\mystring.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vector\vector.c">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cmfile\cm.c">
+      <Filter>cmfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\filesys\filesys.c">
+      <Filter>filesys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\filesys\path.c">
+      <Filter>filesys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\fm.c">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test.c">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\string\getstring.c">
+      <Filter>string</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\res\icon.ico">
+      <Filter>res</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

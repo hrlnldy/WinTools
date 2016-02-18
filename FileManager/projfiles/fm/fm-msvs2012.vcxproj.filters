@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{c95036ba-9c11-430c-8c35-a2a45f305c9e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;h;rc</Extensions>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{7b414c75-c706-424d-8c85-8bc16a722c65}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="error">
+      <UniqueIdentifier>{b4bf1c82-4d8a-4c58-a7c2-382b23b80283}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{dda202f2-8740-411e-9fb2-1f6be64b8068}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{42343079-4f19-408e-8674-07975b4b26fb}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{a05cd1f4-65c2-4308-a7f8-bbbe4372fdfd}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="cmfile">
+      <UniqueIdentifier>{612e1a41-6884-4571-88d8-5a79096206ec}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="filesys">
+      <UniqueIdentifier>{44f7cc88-3102-4bde-a38b-b9064c6171a4}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+    <Filter Include="extern">
+      <UniqueIdentifier>{c9aee727-72d4-4094-a6a4-f4f04054cedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\windows">
+      <UniqueIdentifier>{49257af4-921b-42f3-a0b2-1b3604686b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmdopt">
+      <UniqueIdentifier>{1c05bac0-61da-4859-a227-04e459e5a8e1}</UniqueIdentifier>
+      <Extensions>c;h</Extensions>
+    </Filter>
+    <Filter Include="extern\getopt">
+      <UniqueIdentifier>{e350c9e0-0776-4cbd-811f-98062c4522c8}</UniqueIdentifier>
+      <Extensions>c;h;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\res\fm.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\src\res\icon.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\res\resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\view\window.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\error\error.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config\options.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config\version.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\getopt\getopt.h">
+      <Filter>extern\getopt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmdopt\cmdopt.h">
+      <Filter>cmdopt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\string\mystring.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\vector\vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cmfile\cm.h">
+      <Filter>cmfile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\filesys\filesys.h">
+      <Filter>filesys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\filesys\path.h">
+      <Filter>filesys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\fmdef.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\string\getstring.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\syscmd.h">
+      <Filter>extern\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\filesys\logfile.h">
+      <Filter>filesys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config\config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\vector\stack.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\view\window.c">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\error\error.c">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\config\options.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\config\version.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\getopt\getopt.c">
+      <Filter>extern\getopt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cmdopt\cmdopt.c">
+      <Filter>cmdopt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\string\mystring.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vector\vector.c">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cmfile\cm.c">
+      <Filter>cmfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\filesys\filesys.c">
+      <Filter>filesys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\filesys\path.c">
+      <Filter>filesys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\fm.c" />
+    <ClCompile Include="..\..\src\test.c" />
+    <ClCompile Include="..\..\src\string\getstring.c">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\syscmd.c">
+      <Filter>extern\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\filesys\logfile.c">
+      <Filter>filesys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\config\config.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vector\stack.c">
+      <Filter>vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
